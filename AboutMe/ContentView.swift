@@ -22,6 +22,7 @@ struct ContentView: View {
                 .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 .background(Rectangle()
                     .foregroundColor(.white))
+            
                 
             
             Button(action:
@@ -29,8 +30,10 @@ struct ContentView: View {
             { Text("Click to know more about me...")
                     .font(.footnote)
             }
+            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 .font(/*@START_MENU_TOKEN@*/.headline/*@END_MENU_TOKEN@*/)
                 .buttonStyle(.borderedProminent)
+                .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.gray/*@END_MENU_TOKEN@*/)
         
             if showBio {
                 Text("I'm an upcoming senior who is 17. I love playing vollleyball and I'm on the school's team. I also love to create 2d art with any gradient and chilling around with friends!")
